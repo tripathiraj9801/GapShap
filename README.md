@@ -8,3 +8,5 @@ Tech Stack Used:-
 2. Firebase
 3. Socket.IO
 4. NodeJS
+5. NoSQL
+6. Dart
