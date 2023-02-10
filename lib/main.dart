@@ -17,11 +17,11 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
         ),
         home: AnimatedSplashScreen(
-            duration: 3000,
+            duration: 2000,
             splash: Image.asset('assets/images/Gapshap.png'),
             nextScreen: const MyHomePage(),
-            splashTransition: SplashTransition.fadeTransition,
-            backgroundColor: Color.fromARGB(255, 255, 255, 255)));
+            splashTransition: SplashTransition.scaleTransition,
+            backgroundColor: const Color.fromARGB(255, 255, 255, 255)));
   }
 }
 
